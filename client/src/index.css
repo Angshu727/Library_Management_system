@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small safety to ensure body doesn't scroll behind fixed hero if you want no scroll */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
